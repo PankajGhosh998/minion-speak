@@ -2,6 +2,7 @@ textarea{
     display : block;
     width: 80%;
     margin : 1rem;
+    height: 10vh;
     padding: 1rem 1rem;
 }
 
@@ -13,4 +14,12 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+#output{
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
 }
