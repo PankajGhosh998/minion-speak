@@ -4,7 +4,11 @@ var textArea = document.querySelector("#textArea");
 var outputArea = document.querySelector("#output");
 var serverURL = "https://minion-server.pankajghosh998.repl.co/translate/minion.json";
 
-
+function errorHandler(error)
+{
+  console.log("error occured",error);
+  alert("something wrong with the server ! try again after sometime")
+}
 
 function getTranslateURL(text)
 {
@@ -16,5 +20,5 @@ btnTransalte.addEventListener("click", function clickHandler() {
   fetch(getTranslateURL(inputText))
   .then(Response => Response.json())
   .then(json => console.log(json.contents.translated))
-
+  .catch(errorHandler)
 });
