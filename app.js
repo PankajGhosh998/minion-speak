@@ -19,6 +19,10 @@ btnTransalte.addEventListener("click", function clickHandler() {
 
   fetch(getTranslateURL(inputText))
   .then(Response => Response.json())
-  .then(json => console.log(json.contents.translated))
+  .then(json => {
+      var translatedText=json.contents.translated;
+      outputArea.innerText = translatedText;
+  }
+    )
   .catch(errorHandler)
 });
