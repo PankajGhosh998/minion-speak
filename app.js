@@ -2,10 +2,19 @@ var btnTransalte = document.querySelector("#btn-translate");
 
 var textArea = document.querySelector("#textArea");
 var outputArea = document.querySelector("#output");
+var serverURL = "https://minion-server.pankajghosh998.repl.co/translate/minion.json";
 
+
+
+function getTranslateURL(text)
+{
+  return serverURL+"?"+"text="+text;
+}
 btnTransalte.addEventListener("click", function clickHandler() {
-  console.log("clicked");
-  console.log(textArea.value);
+  var inputText = textArea.value;
 
-  outputArea.innerText = "banana " + textArea.value;
+  fetch(getTranslateURL(inputText))
+  .then(Response => Response.json())
+  .then(json => console.log(json.contents.translated))
+
 });
