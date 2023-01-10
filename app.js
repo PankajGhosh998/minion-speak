@@ -2,7 +2,7 @@ var btnTransalte = document.querySelector("#btn-translate");
 
 var textArea = document.querySelector("#textArea");
 var outputArea = document.querySelector("#output");
-var serverURL = "https://minion-server.pankajghosh998.repl.co/translate/minion.json";
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function errorHandler(error)
 {
