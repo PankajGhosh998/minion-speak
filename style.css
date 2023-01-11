@@ -22,9 +22,8 @@ body{
 h1{
     text-align: center;
     padding: 2rem;
-    color: var(--white);
+    color: var(--blue);
     margin-bottom: 2rem;
-    background-image: url(/image/minionbg.jpg);
 }
 section{
     color: var(--blue);
