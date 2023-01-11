@@ -16,6 +16,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-image: url(/image/minion-bg.jpg);
+    background-color: var(--yellow);
 
 }
 
