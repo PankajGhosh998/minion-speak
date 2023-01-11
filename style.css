@@ -4,7 +4,8 @@
     --white : white;
     --yellow : #ffc014;
     --blue : #0C457A;
-    --orange : rgb(255, 123, 0);
+    --orange : rgb(255,123, 0);
+    --darkYellow : #f0b81d;
 }
 *{
     margin: 0px;
@@ -50,7 +51,9 @@ textarea{
     margin: auto;
     background-color: var(--yellow);
     border-radius: 0.5rem;
+    font-size: 1rem;
     resize: none;
+    font-family : 'Montserrat', sans-serif; ;
     
 }
 h3{
@@ -85,7 +88,7 @@ button:hover{
     height: 10vh;
     padding: 1rem 1rem;
     margin: auto;
-    background-color: var(--yellow);
+    background-color: var(--darkYellow);
     border: 1px solid var(--blue);
     border-radius: 0.5rem;
 }
