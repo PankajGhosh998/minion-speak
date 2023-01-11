@@ -2,7 +2,7 @@
 
 :root{
     --white : white;
-    --yellow : #ffee00;
+    --yellow : #fff200;
     --blue : #0C457A;
     --orange : rgb(255,123, 0);
     --darkYellow : #eede00;
@@ -15,14 +15,16 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--yellow);
+    background-image: url(/image/minion-bg.jpg);
+
 }
 
 h1{
     text-align: center;
-    padding: 1rem;
-    color: var(--blue);
+    padding: 2rem;
+    color: var(--white);
     margin-bottom: 2rem;
+    background-image: url(/image/minionbg.jpg);
 }
 section{
     color: var(--blue);
@@ -34,10 +36,10 @@ section div{
 }
 .box{
     
-    border: 1px solid var(--blue);
+    border: 2px solid var(--blue);
     border-radius: 0.5rem;
     font-weight: 700;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 3rem;
 }
 section img{
     max-width: 15px;
@@ -72,8 +74,9 @@ button{
     font-weight: 700;
     padding: 0.5rem 4rem;
     background-color: var(--yellow);
-    margin-top: 0.5rem;    
-    margin-left: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
     
 }
 
