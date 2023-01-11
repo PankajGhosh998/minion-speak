@@ -2,11 +2,9 @@
 
 :root{
     --white : white;
-    --yellow : #fff200;
-    --blue : #0C457A;
-    --orange : rgb(255,123, 0);
-    --darkYellow : #eede00;
-    --gray : rgb(82, 82, 82);
+    --yellow : #f5d601;
+    --blue : #215480;
+    --darkYellow : #f6cd23;
 }
 *{
     margin: 0px;
