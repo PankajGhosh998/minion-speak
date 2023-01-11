@@ -2,8 +2,9 @@
 
 :root{
     --white : white;
-    --yellow : #FFD55E;
+    --yellow : #ffc014;
     --blue : #0C457A;
+    --orange : rgb(255, 123, 0);
 }
 *{
     margin: 0px;
@@ -60,7 +61,7 @@ h3{
 }
 
 button{
-    border: 1px solid var(--blue);
+    border: 2px solid var(--blue);
     border-radius: 2rem;
     font-size: medium;
     color: var(--blue);
@@ -74,6 +75,8 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: var(--orange);
+    color: var(--white);
 }
 
 #output{
